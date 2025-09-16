@@ -53,7 +53,7 @@ export default function TglTransportLanding() {
 
       {/* Hero */}
       <section className="relative">
-        <div className="absolute inset-0 z-100">
+        <div className="absolute inset-0 z-10">
           <Image
             src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1976&auto=format&fit=crop"
             alt="Port"
