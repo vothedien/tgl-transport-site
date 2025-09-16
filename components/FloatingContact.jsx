@@ -14,7 +14,7 @@ export default function FloatingContact() {
         <div className="grid place-items-center h-14 w-14 rounded-full bg-white/90 backdrop-blur-xl shadow-xl ring-1 ring-black/10 hover:scale-105 transition">
           <Image
           
-           src="/icons/zalo.png"
+           src="/tgl-transport-site/icons/zalo.png"
             alt="Zalo"
             width={38}
             height={38}
