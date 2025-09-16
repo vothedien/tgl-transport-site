@@ -23,7 +23,7 @@ export default function TglTransportLanding() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/TGLTRANS.png"
+              src="images/TGLTRANS.png"
               alt="TGL TRANSPORT"
               width={40}
               height={40}
@@ -158,9 +158,9 @@ export default function TglTransportLanding() {
           <h2 className="text-2xl md:text-3xl font-extrabold text-center">Gói vận chuyển tại TGL</h2>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[
-              { img: "/images/australia.jfif", title: "Vận chuyển hàng đi Úc" },   // <— đổi tên file nếu cần
+              { img: "images/australia.jfif", title: "Vận chuyển hàng đi Úc" },   // <— đổi tên file nếu cần
               { img: "images/myy.jpg",        title: "Vận chuyển hàng đi Mỹ" },
-              { img: "/tgl-transport-site/images/chauau.jpg",    title: "Vận chuyển hàng đi Châu Âu" },
+              { img: "images/chauau.jpg",    title: "Vận chuyển hàng đi Châu Âu" },
             ].map((card, idx) => (
               <div key={idx} className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition-shadow">
                 <div className="relative aspect-[16/10] overflow-hidden">
@@ -190,12 +190,12 @@ export default function TglTransportLanding() {
           <div className="mt-6 overflow-hidden">
             {(() => {
               const logos = [
-                { src: "/partners/vna.png", alt: "Vietnam Airlines" },
-                { src: "/partners/sfexpress.png", alt: "SF Express" },
-                { src: "/partners/ups.png", alt: "UPS" },
-                { src: "/partners/dhl.png", alt: "DHL" },
-                { src: "/partners/fedex.png", alt: "FedEx" },
-                { src: "/partners/vietjet.png", alt: "Vietjet Air" },
+                { src: "partners/vna.png", alt: "Vietnam Airlines" },
+                { src: "partners/sfexpress.png", alt: "SF Express" },
+                { src: "partners/ups.png", alt: "UPS" },
+                { src: "partners/dhl.png", alt: "DHL" },
+                { src: "partners/fedex.png", alt: "FedEx" },
+                { src: "partners/vietjet.png", alt: "Vietjet Air" },
               ];
               const loop = [...logos, ...logos];
               return (
@@ -223,7 +223,7 @@ export default function TglTransportLanding() {
           <div className="rounded-2xl overflow-hidden shadow relative">
             <div className="relative aspect-[16/10]">
               <Image
-                src="/images/gt.jpg"
+                src="images/gt.jpg"
                 alt="Air logistics"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
@@ -274,7 +274,7 @@ export default function TglTransportLanding() {
         <div className="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2">
-              <Image src="/images/TGLTRANS.png" alt="TGL TRANSPORT" width={40} height={40} priority />
+              <Image src="images/TGLTRANS.png" alt="TGL TRANSPORT" width={40} height={40} priority />
               <span className="font-bold text-lg">TGL TRANSPORT</span>
             </div>
             <p className="mt-4 text-sm opacity-80">Kho hàng: 55 Trương Quốc Dung, Phường 10, Phú Nhuận, TP.HCM</p>
