@@ -25,8 +25,8 @@ export default function TglTransportLanding() {
             <Image
               src="images/TGLTRANS.png"
               alt="TGL TRANSPORT"
-              width={40}
-              height={40}
+              width={100}
+              height={100}
               priority
             />
             <span className="font-bold text-lg">TGL TRANSPORT</span>
