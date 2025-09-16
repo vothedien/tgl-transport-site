@@ -159,8 +159,8 @@ export default function TglTransportLanding() {
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[
               { img: "/images/australia.jfif", title: "Vận chuyển hàng đi Úc" },   // <— đổi tên file nếu cần
-              { img: "tgl-transport-site/images/myy.jpg",        title: "Vận chuyển hàng đi Mỹ" },
-              { img: "tgl-transport-site/images/chauau.jpg",    title: "Vận chuyển hàng đi Châu Âu" },
+              { img: "images/myy.jpg",        title: "Vận chuyển hàng đi Mỹ" },
+              { img: "/tgl-transport-site/images/chauau.jpg",    title: "Vận chuyển hàng đi Châu Âu" },
             ].map((card, idx) => (
               <div key={idx} className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition-shadow">
                 <div className="relative aspect-[16/10] overflow-hidden">
