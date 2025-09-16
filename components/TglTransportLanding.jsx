@@ -53,7 +53,7 @@ export default function TglTransportLanding() {
 
       {/* Hero */}
       <section className="relative">
-        <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 -z-100">
           <Image
             src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1976&auto=format&fit=crop"
             alt="Port"
@@ -158,7 +158,7 @@ export default function TglTransportLanding() {
           <h2 className="text-2xl md:text-3xl font-extrabold text-center">Gói vận chuyển tại TGL</h2>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[
-              { img: "images/australia.jfif", title: "Vận chuyển hàng đi Úc" },   // <— đổi tên file nếu cần
+              { img: "images/Australia.jfif", title: "Vận chuyển hàng đi Úc" },   // <— đổi tên file nếu cần
               { img: "images/myy.jpg",        title: "Vận chuyển hàng đi Mỹ" },
               { img: "images/chauau.jpg",    title: "Vận chuyển hàng đi Châu Âu" },
             ].map((card, idx) => (
