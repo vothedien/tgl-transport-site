@@ -55,7 +55,7 @@ export default function TglTransportLanding() {
       <section className="relative">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1976&auto=format&fit=crop"
+            src="images/bk.jpg"
             alt="Port"
             fill
             sizes="100vw"
