@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tgltransport.com/sitemap.xml
