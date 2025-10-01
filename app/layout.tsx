@@ -29,6 +29,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="vi">
+       <head>
+        {/* Google Site Verification */}
+          <meta name="google-site-verification" content="VUJXABadpuxqTnt-SRXRonOjolf0F5rd6s6dNo1BW9A" />
+      </head>
       <body className={`${beVietnam.variable} ${firaMono.variable} antialiased`}>
         {children}
       </body>
