@@ -13,7 +13,7 @@ export default function TglTransportLanding() {
           </div>
           <div className="flex items-center gap-4">
             <a href="tel:0343599380" className="hover:opacity-80">Hotline/Zalo/WhatsApp: 0343599380</a>
-            <a href="mailto:infotglexp@gmail.com" className="hidden sm:inline hover:opacity-80">infotglexp@gmail.com</a>
+            <a href="mailto:infotglexp@gmail.com" className="hidden sm:inline hover:opacity-80">infotgl@tgltransport.com </a>
           </div>
         </div>
       </div>
@@ -263,7 +263,7 @@ export default function TglTransportLanding() {
             </div>
             <div className="flex gap-3">
               <a href="tel:0343599380" className="rounded-xl px-5 py-3 bg-blue-600 font-semibold hover:bg-blue-700">Gọi 0343599380</a>
-              <a href="mailto:infotglexp@gmail.com" className="rounded-xl px-5 py-3 bg-white text-slate-900 font-semibold hover:bg-slate-100">Gửi Email</a>
+              <a href="mailto:infotgl@tgltransport.com " className="rounded-xl px-5 py-3 bg-white text-slate-900 font-semibold hover:bg-slate-100">Gửi Email</a>
             </div>
           </div>
         </div>
@@ -279,7 +279,7 @@ export default function TglTransportLanding() {
             </div>
             <p className="mt-4 text-sm opacity-80">Kho hàng: 55 Trương Quốc Dung, Phường 10, Phú Nhuận, TP.HCM</p>
             <p className="mt-2 text-sm opacity-80">Hotline: 0343599380 (Mr.Giang)</p>
-            <p className="mt-2 text-sm opacity-80">Email: infotglexp@gmail.com</p>
+            <p className="mt-2 text-sm opacity-80">Email: infotgl@tgltransport.com </p>
           </div>
           <div>
             <h4 className="font-semibold">Dịch vụ</h4>
