@@ -155,12 +155,12 @@ export default function TglTransportLanding() {
       {/* Packages / featured routes */}
       <section id="packages" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-center">Gói vận chuyển tại TGL</h2>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-center">DỊCH VỤ VẬN CHUYỂN TẠI TGL"L</h2>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[
-              { img: "images/Australia.jfif", title: "Vận chuyển hàng đi Úc" },   // <— đổi tên file nếu cần
-              { img: "images/myy.jpg",        title: "Vận chuyển hàng đi Mỹ" },
-              { img: "images/chauau.jpg",    title: "Vận chuyển hàng đi Châu Âu" },
+              { img: "images/qt.jpg", title: "Vận chuyển quốc tế" },   // <— đổi tên file nếu cần
+              { img: "images/Ex.jpg",        title: "Express - Special Route" },
+              { img: "images/noidia.jpg",    title: "Vận chuyển nội địa" },
             ].map((card, idx) => (
               <div key={idx} className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition-shadow">
                 <div className="relative aspect-[16/10] overflow-hidden">
@@ -223,7 +223,7 @@ export default function TglTransportLanding() {
           <div className="rounded-2xl overflow-hidden shadow relative">
             <div className="relative aspect-[16/10]">
               <Image
-                src="images/gt.jpg"
+                src="images/gtcty.jpg"
                 alt="Air logistics"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
