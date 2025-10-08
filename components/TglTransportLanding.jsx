@@ -155,7 +155,7 @@ export default function TglTransportLanding() {
       {/* Packages / featured routes */}
       <section id="packages" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-center">DỊCH VỤ VẬN CHUYỂN TẠI TGL"L</h2>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-center">DỊCH VỤ VẬN CHUYỂN TẠI TGL</h2>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[
               { img: "images/qt.jpg", title: "Vận chuyển quốc tế" },   // <— đổi tên file nếu cần
